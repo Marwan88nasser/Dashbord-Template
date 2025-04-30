@@ -1,6 +1,8 @@
-const toggleSidebar = document.getElementById('toggleSidebar');
-const appContent = document.getElementById('app')
+const toggleSidebar = document.querySelectorAll(".toggleSidebar");
+const appContent = document.getElementById("app");
 
-toggleSidebar.addEventListener('click', () => {
-  appContent.classList.toggle('active')
-})
+toggleSidebar.forEach((ele) => {
+  ele.addEventListener("click", () => {
+    appContent.classList.toggle("active");
+  });
+});
