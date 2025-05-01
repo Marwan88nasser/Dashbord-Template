@@ -23,7 +23,6 @@
   <body>
     <!-- المحتوى الرئيسي -->
     <div class="app" id="app">
-      
       <!-- Start Sidebar -->
       <div class="sidebar">
         <div class="sidebar-content">
@@ -150,7 +149,7 @@
         </div>
       </div>
       <!-- End Sidebar -->
-      
+
       <!-- Start Main Content -->
       <main class="app-content">
         <!-- Start Header -->
@@ -161,9 +160,11 @@
                 <i class="fas fa-bars"></i>
               </button>
             </div>
-  
+
             <div class="header-right">
-              <div class="btns-holder d-none d-sm-flex align-items-center gap-3">
+              <div
+                class="btns-holder d-none d-sm-flex align-items-center gap-3"
+              >
                 <a href="#" class="btn-nav">
                   <i class="fas fa-bell"></i>
                   <span class="nav-badge">3</span>
@@ -173,7 +174,7 @@
                   <span class="nav-badge">5</span>
                 </a>
               </div>
-  
+
               <div class="dropdown">
                 <div
                   class="user-holder"
@@ -204,34 +205,23 @@
           <div class="container-fluid">
             <div class="welcome-card">
               <div class="welcome-decoration"></div>
-              <h3>مرحباً بك، محمد!</h3>
-              <p>مرحباً بعودتك! لديك 24 مهمة معلقة و 5 تنبيهات جديدة اليوم.</p>
-              <button class="btn">استعراض التقارير</button>
+              <h3 class="title">مرحباً بك، محمد!</h3>
+              <p class="des">مرحباً بعودتك! لديك 24 مهمة معلقة و 5 تنبيهات جديدة اليوم.</p>
+              <button class="btn-card">استعراض التقارير</button>
             </div>
-    
-            <!-- بطاقات الإحصائيات -->
-            <div class="row g-4">
-              <!-- إحصائية 1 -->
-              <div class="col-md-6 col-lg-3">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 mb-3">
+              <div class="col">
                 <div class="stats-card">
                   <div class="stats-card-header">
                     <h5 class="stats-card-title">إجمالي المبيعات</h5>
-                    <div
-                      class="stats-card-icon"
-                      style="background-color: var(--primary-gradient-start)"
-                    >
+                    <div class="stats-card-icon">
                       <i class="fas fa-shopping-cart"></i>
                     </div>
                   </div>
                   <h3 class="stats-card-value">12,580 ر.س</h3>
                   <div class="stats-card-progress">
-                    <div
-                      class="progress-bar"
-                      style="
-                        width: 75%;
-                        background-color: var(--primary-gradient-start);
-                      "
-                    ></div>
+                    <div class="progress-bar" style="width: 75%"></div>
                   </div>
                   <div class="stats-card-footer">
                     <i class="fas fa-arrow-up text-success me-1"></i>
@@ -239,16 +229,12 @@
                   </div>
                 </div>
               </div>
-    
-              <!-- إحصائية 2 -->
-              <div class="col-md-6 col-lg-3">
-                <div class="stats-card">
+
+              <div class="col">
+                <div class="stats-card card-green">
                   <div class="stats-card-header">
                     <h5 class="stats-card-title">المستخدمين الجدد</h5>
-                    <div
-                      class="stats-card-icon"
-                      style="background-color: var(--success-color)"
-                    >
+                    <div class="stats-card-icon">
                       <i class="fas fa-users"></i>
                     </div>
                   </div>
@@ -256,7 +242,7 @@
                   <div class="stats-card-progress">
                     <div
                       class="progress-bar"
-                      style="width: 65%; background-color: var(--success-color)"
+                      style="width: 65%;"
                     ></div>
                   </div>
                   <div class="stats-card-footer">
@@ -265,16 +251,12 @@
                   </div>
                 </div>
               </div>
-    
-              <!-- إحصائية 3 -->
-              <div class="col-md-6 col-lg-3">
-                <div class="stats-card">
+
+              <div class="col">
+                <div class="stats-card card-yellow">
                   <div class="stats-card-header">
                     <h5 class="stats-card-title">المنتجات النشطة</h5>
-                    <div
-                      class="stats-card-icon"
-                      style="background-color: var(--warning-color)"
-                    >
+                    <div class="stats-card-icon">
                       <i class="fas fa-box"></i>
                     </div>
                   </div>
@@ -282,7 +264,7 @@
                   <div class="stats-card-progress">
                     <div
                       class="progress-bar"
-                      style="width: 50%; background-color: var(--warning-color)"
+                      style="width: 50%;"
                     ></div>
                   </div>
                   <div class="stats-card-footer">
@@ -291,16 +273,12 @@
                   </div>
                 </div>
               </div>
-    
-              <!-- إحصائية 4 -->
-              <div class="col-md-6 col-lg-3">
-                <div class="stats-card">
+
+              <div class="col">
+                <div class="stats-card card-red">
                   <div class="stats-card-header">
                     <h5 class="stats-card-title">نسبة الإكمال</h5>
-                    <div
-                      class="stats-card-icon"
-                      style="background-color: var(--danger-color)"
-                    >
+                    <div class="stats-card-icon">
                       <i class="fas fa-chart-pie"></i>
                     </div>
                   </div>
@@ -308,7 +286,7 @@
                   <div class="stats-card-progress">
                     <div
                       class="progress-bar"
-                      style="width: 78%; background-color: var(--danger-color)"
+                      style="width: 78%;"
                     ></div>
                   </div>
                   <div class="stats-card-footer">
@@ -318,9 +296,8 @@
                 </div>
               </div>
             </div>
-    
-            <!-- صف إضافي للرسم البياني والجدول -->
-            <div class="row mt-4">
+
+            <div class="row g-3">
               <!-- الرسم البياني -->
               <div class="col-lg-8">
                 <div class="chart-container">
@@ -352,7 +329,7 @@
                   </div>
                 </div>
               </div>
-    
+
               <!-- آخر المعاملات -->
               <div class="col-lg-4">
                 <div class="table-container">
@@ -366,7 +343,7 @@
                           <td>
                             <div class="customer-info">
                               <img
-                                src="/api/placeholder/40/40"
+                                src="images/image.webp"
                                 class="customer-img"
                                 alt="العميل"
                               />
@@ -377,7 +354,9 @@
                             </div>
                           </td>
                           <td class="text-center">
-                            <span class="status-badge badge-completed">مكتمل</span>
+                            <span class="status-badge badge-completed"
+                              >مكتمل</span
+                            >
                           </td>
                           <td class="text-center">
                             <span class="fw-bold">1,200 ر.س</span>
@@ -387,7 +366,7 @@
                           <td>
                             <div class="customer-info">
                               <img
-                                src="/api/placeholder/40/40"
+                                src="images/image.webp"
                                 class="customer-img"
                                 alt="العميل"
                               />
@@ -408,18 +387,22 @@
                           <td>
                             <div class="customer-info">
                               <img
-                                src="/api/placeholder/40/40"
+                                src="images/image.webp"
                                 class="customer-img"
                                 alt="العميل"
                               />
                               <div>
                                 <p class="customer-name">محمد علي</p>
-                                <p class="customer-email">mohamed@example.com</p>
+                                <p class="customer-email">
+                                  mohamed@example.com
+                                </p>
                               </div>
                             </div>
                           </td>
                           <td class="text-center">
-                            <span class="status-badge badge-completed">مكتمل</span>
+                            <span class="status-badge badge-completed"
+                              >مكتمل</span
+                            >
                           </td>
                           <td class="text-center">
                             <span class="fw-bold">2,450 ر.س</span>
@@ -429,7 +412,7 @@
                           <td>
                             <div class="customer-info">
                               <img
-                                src="/api/placeholder/40/40"
+                                src="images/image.webp"
                                 class="customer-img"
                                 alt="العميل"
                               />
